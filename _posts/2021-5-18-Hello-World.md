@@ -2,8 +2,8 @@
 layout: post
 title: À PROPOS DE L'INTERNET
 ---
-comments_id: 1
-## Questions D'Orientation
+![_config.yml]({{ site.baseurl }}/images/internet.jpg)
+## Questions D'Orientation <span>
 1. Qu'est-ce que l'internet?
 2. Comment pouvons-nous nous connecter à Internet?
 3. Quel est le rôle des fournisseurs de services Internet?
@@ -15,15 +15,15 @@ Cette histoire démontre que les parties de l'infrastructure Internet gérées p
 
 L'Internet est composé de plusieurs couches, chacune remplissant des fonctions spécifiques.
 
-_La couche de contenu_ décrit ce que les utilisateurs partagent en ligne, c'est-à-dire des vidéos, des articles de blog, des images, etc.
+<span style="color:red"> _La couche de contenu_<span> décrit ce que les utilisateurs partagent en ligne, c'est-à-dire des vidéos, des articles de blog, des images, etc.
 
-_La couche application_ aide les utilisateurs à envoyer et à recevoir des informations via des interfaces lisibles, notamment des plates-formes Web, des e-mails et des messages instantanés. Les applications de service Internet, comme Google ou Facebook, vous aident à utiliser et à naviguer sur Internet; sinon, tout serait en langage de codage!
+<span style="color:red"> _La couche application_<span> aide les utilisateurs à envoyer et à recevoir des informations via des interfaces lisibles, notamment des plates-formes Web, des e-mails et des messages instantanés. Les applications de service Internet, comme Google ou Facebook, vous aident à utiliser et à naviguer sur Internet; sinon, tout serait en langage de codage!
 
-_La couche logique_ comprend tous les protocoles standard prenant en charge les connexions entre les périphériques et les applications qui s’exécutent sur eux. La plupart des institutions qui hébergent les normes techniques et logiques selon lesquelles Internet fonctionne sont basées aux États-Unis.
+<span style="color:red"> _La couche logique_<span> comprend tous les protocoles standard prenant en charge les connexions entre les périphériques et les applications qui s’exécutent sur eux. La plupart des institutions qui hébergent les normes techniques et logiques selon lesquelles Internet fonctionne sont basées aux États-Unis.
 
-Plus important encore, _la couche infrastructurelle_ concerne l'infrastructure physique - c'est-à-dire les câbles, les fils, les téléphones, les ordinateurs et les routeurs - nécessaires pour établir et maintenir la connexion.
+Plus important encore, <span style="color:red"> _la couche infrastructurelle_ <span> concerne l'infrastructure physique - c'est-à-dire les câbles, les fils, les téléphones, les ordinateurs et les routeurs - nécessaires pour établir et maintenir la connexion.
 
-Interconnectés dans le monde entier via des câbles en cuivre, des câbles à fibre optique ou des ondes radio, les petits réseaux locaux d’ordinateurs sur lesquels Internet repose appartiennent à divers FAI qui permettent aux utilisateurs finaux de se connecter au **«dernier kilomètre»**. Avec les FAI, il existe une capacité à l'échelle de l'industrie d'accorder et de restreindre l'accès à de nombreux services Internet sur lesquels repose une économie et une société de plus en plus numérisées.
+Interconnectés dans le monde entier via des câbles en cuivre, des câbles à fibre optique ou des ondes radio, les petits réseaux locaux d’ordinateurs sur lesquels Internet repose appartiennent à divers FAI qui permettent aux utilisateurs finaux de se connecter au <span style="color:red"> **«dernier kilomètre»** <span>. Avec les FAI, il existe une capacité à l'échelle de l'industrie d'accorder et de restreindre l'accès à de nombreux services Internet sur lesquels repose une économie et une société de plus en plus numérisées.
 
 ![_config.yml]({{ site.baseurl }}/images/email.jpeg)
 
@@ -40,11 +40,11 @@ Dans cette rubrique, nous allons essayé de répondre ces 3 petites questions:
 
 Ces paragraphes  décrivent en peu de mots le secteur africain des télécommunications et réfléchit aux implications pour l'accès individuel aux services Internet.
 
-**L'Afrique est la région la moins connectée du monde**. En janvier 2021, l'Afrique de l'Est et du Moyen-Orient enregistrait les taux de pénétration d'Internet les plus bas: 24% et 26%, respectivement. La majorité du trafic Web provient d'appareils mobiles; seuls 15% environ des ménages disposent d'un accès fixe à large bande à domicile. L'accès à Internet a tendance à être extrêmement coûteux par rapport aux normes européennes.
+<span style="color:red"> **L'Afrique est la région la moins connectée du monde** <span>. En janvier 2021, l'Afrique de l'Est et du Moyen-Orient enregistrait les taux de pénétration d'Internet les plus bas: 24% et 26%, respectivement. La majorité du trafic Web provient d'appareils mobiles; seuls 15% environ des ménages disposent d'un accès fixe à large bande à domicile. L'accès à Internet a tendance à être extrêmement coûteux par rapport aux normes européennes.
 
-En Afrique, comme dans la plupart des autres régions du monde, le secteur des télécommunications était traditionnellement réglementé par des monopoles contrôlés par l'État. Aujourd'hui, **les fournisseurs de services Internet (FAI) appartiennent à une variété d'actionnaires différents**.
+En Afrique, comme dans la plupart des autres régions du monde, le secteur des télécommunications était traditionnellement réglementé par des monopoles contrôlés par l'État. Aujourd'hui, <span style="color:red"> **les fournisseurs de services Internet (FAI) appartiennent à une variété d'actionnaires différents** <span>.
 
-Dans plusieurs pays, notamment à Djibouti, en Érythrée et en Éthiopie, **le gouvernement a toujours été le seul actionnaire** du seul FAI opérant dans le pays. Au Sénégal, à son tour, l'État n'a jamais détenu une part majoritaire dans aucun FAI. En Ouganda, les FAI appartiennent en grande partie à des entreprises privées étrangères de différents continents, notamment le French Orange, l'Indian Bharti Airtel ou le sud-africain MTN.
+Dans plusieurs pays, notamment à Djibouti, en Érythrée et en Éthiopie, <span style="color:red">  **le gouvernement a toujours été le seul actionnaire** <span> du seul FAI opérant dans le pays. Au Sénégal, à son tour, l'État n'a jamais détenu une part majoritaire dans aucun FAI. En Ouganda, les FAI appartiennent en grande partie à des entreprises privées étrangères de différents continents, notamment le French Orange, l'Indian Bharti Airtel ou le sud-africain MTN.
 
 Compte tenu des sensibilités politiques et économiques associées à la propriété des infrastructures, **la propriété privatisée et / ou étrangère** fournit un «baromètre de la volonté des États de partager l'autorité avec les autres» (Doh et al. 2004: 234). Si l'État détient des parts dans l'entreprise, la direction de l'entreprise est susceptible de favoriser le respect des demandes politiques, telles que la manipulation de l'accès au service Internet ou le partage des données des consommateurs, contrairement à une entreprise privée engagée dans les principes de responsabilité sociale des entreprises.
 
