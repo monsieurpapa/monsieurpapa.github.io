@@ -14,4 +14,8 @@ layout: default
   </div>
 
   {% include disqus.html %}
+  <!-- below is a trial code for adding comments -->
+  {% if page.comments_id %}
+    {% include comments.html issue_id=page.comments_id %}
+{% endif %}
 </article>

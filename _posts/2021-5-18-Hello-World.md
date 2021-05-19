@@ -2,7 +2,7 @@
 layout: post
 title: À PROPOS DE L'INTERNET
 ---
-
+comments_id: 1
 ## Questions D'Orientation
 1. Qu'est-ce que l'internet?
 2. Comment pouvons-nous nous connecter à Internet?
