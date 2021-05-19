@@ -2,6 +2,7 @@
 layout: post
 title: À PROPOS DE L'INTERNET
 ---
+
 ![_config.yml]({{ site.baseurl }}/images/internet.jpg)
 ## Questions D'Orientation
 1. Qu'est-ce que l'internet?
