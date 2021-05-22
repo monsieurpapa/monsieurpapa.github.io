@@ -2,12 +2,13 @@
 layout: post
 title: LES COUPURES DE CONNEXION
 ---
-![_config.yml]({{ site.baseurl }}/images/centure.jpg)
-## QUESTIONS D'ORIENTATION
 
-1. Quelles sont les conséquences politiques, sociales et économiques des coupures d'Internet?
-2. Comment les FAI manipulent-ils généralement l'accès aux services Internet?
-3. De quelle manière les coupures d'Internet peuvent-elles être considérées comme illégales ou illégitimes?
+![_config.yml]({{ site.baseurl }}/images/centure.jpg)
+## Questions d'Orientation
+
+1. _Quelles sont les conséquences politiques, sociales et économiques des coupures d'Internet?_
+2. _Comment les FAI manipulent-ils généralement l'accès aux services Internet?_
+3. _De quelle manière les coupures d'Internet peuvent-elles être considérées comme illégales ou illégitimes?_
 
 
 ## Objectifs de cet article
@@ -24,12 +25,12 @@ Les stratégies techniques les plus courantes reposent sur les fournisseurs de s
 
 Les perturbations d'Internet ont des conséquences économiques, sociales et politiques de grande portée. Ils limitent la communication entre les entreprises et les clients et empêchent les citoyens de responsabiliser les institutions, entre autres. Les Nations Unies considèrent que les perturbations d'Internet, quelle que soit la justification fournie, sont disproportionnées et constituent une violation de l'article 19 du Pacte international relatif aux droits civils et politiques. Ils demandent à tous les États de veiller à ce que l'accès à Internet soit maintenu à tout moment, y compris en période de troubles politiques.
 
-## ALORS, QUELLE EST LA RESPONSABILITE DU FAI?
+## Alors, quelle est la résponsabilité des Fournisseurs d'Acces à Internet (FAI)?
 Nous allons tenter de répondre à ces questions:
  
-1. Pourquoi les FAI se conforment-ils aux demandes du gouvernement de fermer Internet?
-2. Quel rôle les actionnaires des FAI jouent-ils dans de telles décisions?
-3. Les FAI peuvent-ils être tenus responsables de leurs actions?
+1. _Pourquoi les FAI se conforment-ils aux demandes du gouvernement de fermer Internet?_
+2. _Quel rôle les actionnaires des FAI jouent-ils dans de telles décisions?_
+3. _Les FAI peuvent-ils être tenus responsables de leurs actions?_
 
 
 ### Les réponses
@@ -47,3 +48,26 @@ En 2020, la Cour de justice de la Communauté économique des États de l'Afriqu
 Merci pour votre temps!!!
 
 Cet article est écrit par : [Dieudonné I. Munganga](https://dieudonnemunganga.pb.online/)
+
+
+## REFERENCES
+
+* **MACKINNON, R. (2011)**. _Technologie de libération: l'autoritarisme en réseau de la Chine. Journal of Democracy 22 (2): 32-46_.
+
+* _Description de la pression que subissent les entreprises Internet chinoises lorsqu'elles ne suivent pas un ordre du gouvernement de censurer ou de surveiller le trafic Internet, comme une révocation de leur accord de licence_.
+
+* **PARSONS, C. (2019)**. _(In) Efficacité des rapports de transparence produits volontairement, Business & Society 58 (1): 103-131_.
+
+* _Certaines entreprises de télécommunications divulguent à quelle fréquence et pour quelles raisons les agences gouvernementales imposent des données sur les clients ou demandent le blocage ou l'interruption du contenu. Cette étude démontre que la mesure dans laquelle ces rapports de transparence sont utiles pour déterminer le comportement réel des entreprises a tendance à être assez limitée_.
+
+* **PIGRAU SOLÉ, A., ÁLVAREZ TORNÉ, M., CARDESA-SALZMANN, A., et al. (2016)**. _Les droits de l'homme dans les entreprises européennes: un manuel pratique pour les organisations de la société civile et les défenseurs des droits de l'homme. Centre d'études du droit de l'environnement de Tarragone_.
+
+* _Introduction de réglementations européennes permettant le contentieux contre les violations des droits de l'homme par des entreprises légalement enregistrées dans l'Union européenne_.
+
+* **RODAN, G. (1998)**. _L'Internet et le contrôle politique à Singapour. Political Science Quarterly 113 (1): 63-89_.
+
+* _Discussion sur le rôle des licences gouvernementales dans le contrôle de la fourniture d'accès et de contenu Internet à Singapour_.
+
+* **SCHERER, A. et PALAZZO, G. (2011)**. _Le nouveau rôle politique des entreprises dans un monde globalisé - Un examen d'une nouvelle perspective sur la RSE et ses implications pour l'entreprise, la gouvernance et la démocratie. Journal of Management Studies 48 (4): 899-931_.
+
+* _Discussion du concept de responsabilité sociale des entreprises, qui donne un aperçu de la manière dont les entreprises multinationales peuvent lutter contre les violations des droits de l'homme._
