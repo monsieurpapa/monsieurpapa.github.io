@@ -36,4 +36,4 @@ Peu d'autres projets sur lesquels j'ai travaillé étaient à la fois individuel
 
 * En 2019, en équipe de trois, nous avons développé une application d'évaluation sécurisée (SECAPP), une alternative à l'ancienne mode des tests/examens sur papier. Nous avons utilisé Java, la base de données MongoDB No-SQL et les algorithmes de cryptage PGP pour sécuriser les données aux deux extrémités du système.
 
-Pour voir quelques autres travaux que j'ai réalisés, on peut se référer à [mon profil GitHub](https://github.com/monsieurpapa)
+Pour voir quelques autres travaux que j'ai réalisés, on peut se référer à [mon profil GitHub](https://github.com/monsieurpapa). Et pour garder contact avec moi sur les résaux sociaux, cliquez les icones en bas.
