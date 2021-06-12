@@ -83,3 +83,5 @@ fonction des angles d'élévation pour les systèmes satellites LEO_ »_, IEEE C
 4, p. 138-140, avril 2002.
 * ‘Simulation de systèmes de communication’ Par Michel C. Jeruchim, Philip Balaban, K.
 Sam Shanmugan-Chapitre 9 (545-548)
+
+{% include disqs.html %}
