@@ -5,7 +5,7 @@ title: Les satellites LEO, Les bases
 
 ![_config.yml]({{ site.baseurl }}/images/Leo.jpeg)
 
-_Cet article est inspiré par Ulrich Speidel de [APNIC]{https://blog.apnic.net/} dans le premier d une série hebdomadaire en quatre parties sur les satellites en orbite terrestre basse (LEO). NOus avons trouvé important de vous en parler vu la potentialité de ce jujet sur l'échelle internationnale._
+_Cet article est inspiré par Ulrich Speidel d'[APNIC](https://blog.apnic.net) dans ses articles sur les satellites en orbite terrestre basse (LEO). Nous avons trouvé important de vous en parler vu la potentialité de ce sujet sur l'échelle internationnale._
 
 Si vous attendiez une connectivité Internet décente dans votre coin du monde, 2021 promet d'être une année passionnante. Au cours des dernières années, la société Starlink de SpaceX a mis en orbite environ 1 500 satellites de communication LEO. Ils ont également récemment commencé des tests bêta avec des clients finaux en Amérique du Nord, en Australie, en Nouvelle-Zélande et dans quelques économies européennes, alors qu'ils prévoient de mettre en place environ 10 000 autres satellites à terme. On dit que les opérations commerciales n'auront lieu que dans quelques semaines ou quelques mois. Leur concurrent le plus proche, OneWeb, se remet d'un hoquet financier mais est également en bonne voie vers une constellation de satellites exploitable. Quelques autres concurrents attendent leur heure pour l'instant, mais sont soutenus par des organisations dotées d'une puissance financière importante, telles qu'Amazon, il est donc probable qu'ils apparaîtront bientôt également sur scène.
 

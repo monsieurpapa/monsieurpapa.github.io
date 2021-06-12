@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Qui Suis-je?
-permalink: /about/
+title: A propos de moi?
+permalink: /Qui Suis-je/
 ---
 ![_config.yml]({{ site.baseurl}}/images/profile.jpeg)
 Je suis étudiant en maîtrise d'informatique à l'Université de Cape Town, spécialisé dans les réseaux informatiques, les mesures de performance Internet, en particulier, où je travaille avec le Dr Josiah Chavula en tant que superviseur. Je suis titulaire d'un diplôme spécialisé en technologie de l'information à l'Université de Cape Town (2020) et d'un baccalauréat en informatique de l'Université chrétienne de l'Ouganda (2017). Consultez mon CV ici.
