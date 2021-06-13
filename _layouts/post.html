@@ -13,9 +13,10 @@ comments: true
   <div class="date">
     Publié le {{ page.date | date: "%B %e, %Y" }}
   </div>
+  {% include disqus.html %}
   <script id="dsq-count-scr" src="//dieudo.disqus.com/count.js" async></script>
 </article>
-{% include disqus.html %}
+
 
     
 
