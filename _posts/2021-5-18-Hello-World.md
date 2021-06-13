@@ -1,6 +1,7 @@
 ---
 layout: post
 title: À PROPOS DE L'INTERNET
+comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/internet.jpg)

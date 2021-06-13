@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LES COUPURES DE CONNEXION
+comments: true
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/centure.jpg)
