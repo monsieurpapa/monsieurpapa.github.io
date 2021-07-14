@@ -4,7 +4,7 @@ title: 7 leçons pour trouver le travail que vous étiez censé faire, l'Avis de
 comments: true
 ---
 ![_config.yml]({{ site.baseurl }}/images/travail_et_vocation.png)
-_NB: le contenu de cet article est inspiré par une conférence TED by Kate Torgovnick. J'éspères qu'il aidera le lecteur dans son choix de travail/carrière ou même au delà. Rien à voir avec la vision de ce blog, mais quad-même liés par ce qu'après tout, nous écrivons et lisons pour enrichir nos connaissances ou alors nous construire carrière "idéale". Oups.. Ouais, ça m'arrive souvent d'improviser_. _MEKTUB_ .
+_NB: le contenu de cet article est inspiré par une conférence TED by Kate Torgovnick. J'éspères qu'il aidera le lecteur dans son choix de travail/carrière ou même au delà. Rien à voir avec la vision de ce blog, mais quad-même liés par ce qu'après tout, nous écrivons et lisons pour enrichir nos connaissances ou alors nous construire une carrière "idéale". Oups.. Ouais, ça m'arrive souvent d'improviser_. _MEKTUB_ .
 
 ## Vous ne «trouvez pas votre vocation», vous vous battez pour cela – et d'autres leçons de personnes qui ont trouvé leur passion (parfois tard dans la vie).
 
