@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 7 leçons pour trouver le travail pour lequel vous etiez destiné 
+title: 7 leçons pour trouver le travail que vous étiez censé faire, l'Avis des experts.
 comments: true
 ---
-_NB: le contenu de cet article est inspiré par une conférence TED by Kate Torgovnick. J'éspères qu'il aidera le lecteur dans son choix de travail/carrière ou même au delà. Rien à voir avec la vision de ce blog, mais quad-même liés par ce qu'après tout, nous écrivons et lisons pour enrichir nos connaissances ou alors nous construire carrière "idéale". Oups.. Ouais, ça m'arrive souvent d'improviser!!! <MEKTUB>_
 ![_config.yml]({{ site.baseurl }}/images/travail_et_vocation.png)
+_NB: le contenu de cet article est inspiré par une conférence TED by Kate Torgovnick. J'éspères qu'il aidera le lecteur dans son choix de travail/carrière ou même au delà. Rien à voir avec la vision de ce blog, mais quad-même liés par ce qu'après tout, nous écrivons et lisons pour enrichir nos connaissances ou alors nous construire carrière "idéale". Oups.. Ouais, ça m'arrive souvent d'improviser!!! <MEKTUB>_
+
 ## Vous ne «trouvez pas votre vocation», vous vous battez pour cela – et d'autres leçons de personnes qui ont trouvé leur passion (parfois tard dans la vie).
 
 Que ce soit lors d'un test d'aptitude professionnelle ou lors d'une conversation à cœur ouvert après avoir été licencié, il y a de fortes chances que quelqu'un vous ait expliqué comment « trouver votre vocation ». C'est l'une de ces phrases que les gens lancent. Mais le fondateur de StoryCorps, Dave Isay, s'y oppose… en particulier, en disant ce qui suit: 
@@ -36,6 +37,6 @@ L'ancienne phraséologie « trouver sa vocation » donne l'impression qu'une v
  Une autre tendance qu'Isay voit dans les histoires de personnes qui trouvent leur vocation : elles impliquent souvent de quitter un emploi bien rémunéré pour un travail moins bien rémunéré mais plus satisfaisant. "Le message que nous envoyons aux jeunes est que vous voulez faire le moins de travail possible pour gagner autant d'argent que possible - c'est le rêve", explique Isay. "Mais la sagesse dans les archives de StoryCorps est qu'il y a un autre rêve, beaucoup plus gratifiant de prendre des risques et de travailler très dur pour vivre avec intégrité." En fin de compte, c'est la leçon qu'il a tirée de l'écriture de ce livre. "Il n'y a pas de millionnaires, pas de milliardaires, pas de célébrités, personne avec un grand suivi sur Twitter", dit-il. « De simples histoires peuvent nous apprendre beaucoup sur des vies pleinement vécues. »
 
 
-Merci pour votre temps, la section commentaire vous attend!!!
+Merci pour votre temps. Veuillez laisser votre avis dans la section commentaire en bas!!!
 Cet article est écrit par : [Dieudonné I. Munganga](https://monsieurpapa.github.io/about/)
 sous l'inspiration de Kate Torgovnick May, une écrivaine de TED.com. 
