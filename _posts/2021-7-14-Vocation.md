@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 7 leçons pour trouver le travail que vous étiez censé faire, l'Avis des experts.
+title: 7 leçons pour trouver le travail que vous êtes appelé à faire, l'Avis des experts.
 comments: true
 ---
 ![_config.yml]({{ site.baseurl }}/images/travail_et_vocation.png)
