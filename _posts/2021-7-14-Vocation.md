@@ -7,7 +7,7 @@ comments: true
 
 _NB: le contenu de cet article est inspiré par une conférence TED by Kate Torgovnick. J'éspères qu'il aidera le lecteur dans son choix de travail/carrière ou même au delà. Rien à voir avec la vision de ce blog, mais quad-même liés par ce qu'après tout, nous écrivons et lisons pour enrichir nos connaissances ou alors nous construire une carrière "idéale". Oups.. Ouais, ça m'arrive souvent d'improviser_. _MEKTUB_ .
 
-## Vous ne «trouvez pas votre vocation», vous vous battez pour cela – et d'autres leçons de personnes qui ont trouvé leur passion (parfois tard dans la vie).
+## Vous ne «trouvez pas votre vocation», vous vous battez pour cela – et d'autres leçons de personnes qui ont trouvé leur vocation (parfois tard dans la vie).
 
 Que ce soit lors d'un test d'aptitude professionnelle ou lors d'une conversation à cœur ouvert après avoir été licencié, il y a de fortes chances que quelqu'un vous ait expliqué comment « trouver votre vocation ». C'est l'une de ces phrases que les gens lancent. Mais le fondateur de StoryCorps, Dave Isay, s'y oppose… en particulier, en disant ce qui suit: 
 « Trouver votre vocation – ce n'est pas passif », dit-il. « Quand les gens ont trouvé leur vocation, c.à.d qu'ils ont pris des décisions difficiles et des sacrifices pour faire le travail qu'ils étaient censés faire. »
@@ -16,7 +16,7 @@ En d'autres termes, vous ne vous contentez pas de « trouver » votre vocation
 
 Au cours d'une décennie d'écoute des interviews de StoryCorps, Isay a remarqué que les gens partagent souvent l'histoire de la façon dont ils ont découvert leur vocation - et maintenant, il a rassemblé des dizaines d'histoires intéressantes sur le sujet dans un nouveau livre, _Callings: The Purpose and Passion of Work._ Ceci peut se traduire par: _Les vocations : le but et la passion du travail_.  Ci-dessous, il partage 7 points à retenir du combat durement gagné pour trouver le travail que vous aimez.
 
-## 1. Votre vocation est à l'intersection d'un diagramme de Venn de trois choses : faire quelque chose pour lequel vous êtes doué, vous sentir apprécié et croire que votre travail améliore la vie des gens. 
+## 1. Votre vocation est à l'intersection d'un diagramme de Venn de trois choses : faire quelque chose en laquelle vous êtes doué, vous sentir apprécié et croire que votre travail améliore la vie des gens. 
 "Lorsque ces trois choses s'alignent, c'est comme un éclair", dit Isay. Il ne suggère pas qu'une personne doit être un chirurgien sauvant des vies pour avoir l'impression d'avoir une vocation ; pensez à la serveuse du restaurant qui parle aux clients et les fait se sentir aimés. Comment trouvez-vous ce chevauchement ? « Vous devez exclure tout bavardage de ce que vos amis vous disent de faire, de ce que vos parents vous disent de faire, de ce que la société vous dit de faire », dit Isay, « et allez simplement dans cet endroit calme à l'intérieur de vous qui connaît la vérité.
 
 ## 2. Votre vocation découle souvent d'expériences difficiles. 
