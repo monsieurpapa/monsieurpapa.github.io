@@ -48,7 +48,7 @@ En 2020, la Cour de justice de la Communauté économique des États de l'Afriqu
 
 Merci pour votre temps!!!
 
-Cet article est écrit par : [Dieudonné I. Munganga](https://dieudonnemunganga.pb.online/)
+Cet article est écrit par : [Dieudonné I. Munganga](https://monsieurpapa.github.io/about/)
 
 
 ## REFERENCES

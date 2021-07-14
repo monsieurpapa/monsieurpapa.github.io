@@ -77,4 +77,4 @@ Cet article est écrit par : [Dieudonné I. Munganga](https://dieudonnemunganga.
 
 * Une discussion provocante sur les défis d'Internet en tant que technologie de libération. S'appuyant sur une série d'exemples pratiques, il montre comment les gouvernements cherchent à affirmer leur pouvoir de diriger et de contrôler l'utilisation et l'expansion d'Internet.
 
-Vous pouvez apprendre plus sur l'auteur de ce post en cliquant sur [cette page](https://dieudonnemunganga.pb.online/).
+Cet article est écrit par : [Dieudonné I. Munganga](https://monsieurpapa.github.io/about/)

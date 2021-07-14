@@ -52,7 +52,7 @@ On peut donc s'attendre à ce qu'une nouvelle génération de fournisseurs de se
 
 Merci pour votre temps!!!
 
-Cet article est écrit par : [Dieudonné I. Munganga](https://dieudonnemunganga.pb.online/)
+Cet article est écrit par : [Dieudonné I. Munganga](https://monsieurpapa.github.io/about/)
 
 
 ## REFERENCES

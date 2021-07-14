@@ -36,4 +36,6 @@ L'ancienne phraséologie « trouver sa vocation » donne l'impression qu'une v
  Une autre tendance qu'Isay voit dans les histoires de personnes qui trouvent leur vocation : elles impliquent souvent de quitter un emploi bien rémunéré pour un travail moins bien rémunéré mais plus satisfaisant. "Le message que nous envoyons aux jeunes est que vous voulez faire le moins de travail possible pour gagner autant d'argent que possible - c'est le rêve", explique Isay. "Mais la sagesse dans les archives de StoryCorps est qu'il y a un autre rêve, beaucoup plus gratifiant de prendre des risques et de travailler très dur pour vivre avec intégrité." En fin de compte, c'est la leçon qu'il a tirée de l'écriture de ce livre. "Il n'y a pas de millionnaires, pas de milliardaires, pas de célébrités, personne avec un grand suivi sur Twitter", dit-il. « De simples histoires peuvent nous apprendre beaucoup sur des vies pleinement vécues. »
 
 
- Ecris par Dieudonné I. Munganga sous l'inspiration de Kate Torgovnick May , une écrivaine de TED.com. 
+Merci pour votre temps, la section commentaire vous attend!!!
+Cet article est écrit par : [Dieudonné I. Munganga](https://monsieurpapa.github.io/about/)
+sous l'inspiration de Kate Torgovnick May, une écrivaine de TED.com. 
