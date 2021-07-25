@@ -4,7 +4,7 @@ title: Toutes les données que WhatsApp et Instagram envoient à Facebook
 comments: true
 ---
 ![_config.yml]({{ site.baseurl }}/images/facebook.png)
-Lorsqu'elles sont combinées, les « entreprises Facebook » en savent énormément sur vous.
+### Lorsqu'elles sont combinées, les « entreprises Facebook » en savent énormément sur vous.
 
 Début 2021, un changement de politique de confidentialité [mal communiqué](https://www.theverge.com/2021/1/12/22226792/whatsapp-privacy-policy-response-signal-telegram-controversy-clarification) a provoqué un exode massif de WhatsApp appartenant à Facebook. Au cours de la semaine suivant l'annonce – qui a vu WhatsApp demander aux utilisateurs d'accepter une nouvelle politique ou de supprimer leurs comptes – [les téléchargements](https://www.bbc.co.uk/news/technology-55684595) de son rival [Signal](https://www.wired.co.uk/article/whatsapp-alternatives-vs-signal) ont augmenté de 35 fois pour atteindre 8,8 millions, provoquant le plantage de ses serveurs. D'autres sont passés à Telegram, qui a été téléchargé 11 millions de fois au cours de la semaine suivant la mise à jour de la confidentialité.
 
@@ -38,7 +38,7 @@ Le changement de confidentialité de WhatsApp, qui malgré un retard initial est
 
 Après un retard initial, la mise à jour des conditions d'utilisation de WhatsApp commence à être déployée dans le monde, mais elle pourrait encore faiblir dans l'UE, où elle fait l'objet [d'une enquête](https://www.bloomberg.com/news/articles/2021-07-15/facebook-s-eu-privacy-watchdog-urged-to-probe-data-sharing) des autorités.
 
-![_config.yml]({{ site.baseurl }}/images/inst-facebook.jpg)
+![_config.yml]({{ site.baseurl }}/images/insta.webp)
 ## Quelles données Instagram partage-t-il avec Facebook ?
 
 Instagram [partage beaucoup de données](https://www.google.com/search?q=site%3Awired.co.uk+instagram&oq=site%3Awired.co.uk+instagram+&aqs=chrome..69i57j69i58.3084j0j1&sourceid=chrome&ie=UTF-8) avec Facebook. Sa [politique de confidentialité](https://help.instagram.com/519522125107875) décrit comment le réseau social « connecte les informations sur vos activités sur différents produits et appareils Facebook » pour offrir une « expérience plus adaptée et cohérente ». Par exemple, il peut vous suggérer de rejoindre un groupe sur Facebook qui comprend des personnes que vous suivez sur Instagram ou avec lesquelles vous communiquez via Messenger.
