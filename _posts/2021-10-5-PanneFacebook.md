@@ -3,8 +3,8 @@ layout: post
 title: Comprendre comment Facebook a disparu d Internet
 comments: true
 ---
-![_config.yml]({{ site.baseurl }}/images/etworks.png)
-### Lorsqu'elles sont combinées, les « entreprises Facebook » en savent énormément sur vous.
+![_config.yml]({{ site.baseurl }}/images/intercon.jpg)
+### Comprendre comment Facebook a disparu d Internet.
 "Facebook ne peut pas être en panne, n'est-ce pas ?", nous le pensions, pour une seconde.
 
 Hier à 17h51 UTC+2, tout le monde n arrivait pas à acceder à tous les services affiliés à Facebook notamment Whatsapp, Messenger and Instagram. Ces applications étaient, en fait, tous en panne. 
@@ -42,11 +42,11 @@ Dans ce schéma simplifié, vous pouvez voir six systèmes autonomes sur Interne
 À cause de cela, le résolveur DNS 1.1.1.1 de Cloudflare ne pouvait plus répondre aux requêtes demandant l'adresse IP de facebook.com ou instagram.com.
 
 
-            routes-vues> afficher l'ip bgp 185.89.218.0/23
+            routes-vues> show ip bgp 185.89.218.0/23
             % Réseau non dans le tableau
             routes-vues>
 
-            route-views> afficher l'ip bgp 129.134.30.0/23
+            route-views> show ip bgp 129.134.30.0/23
             % Réseau non dans le tableau
             routes-vues>
 
@@ -54,7 +54,7 @@ Dans ce schéma simplifié, vous pouvez voir six systèmes autonomes sur Interne
 Pendant ce temps, d'autres adresses IP Facebook restaient routées mais n'étaient pas particulièrement utiles car sans DNS, Facebook et les services associés étaient effectivement indisponibles :
 
 
-            route-views> afficher l'ip bgp 129.134.30.0
+            route-views> show ip bgp 129.134.30.0
             Entrée de table de routage BGP pour 129.134.0.0/17, version 1025798334
             Chemins : (24 disponibles, meilleur n°14, table par défaut)
             Non annoncé à aucun pair
@@ -66,7 +66,7 @@ Pendant ce temps, d'autres adresses IP Facebook restaient routées mais n'étaie
             chemin 7FE1408ED9C8 État RPKI introuvable
             rx pathid : 0, tx pathid : 0
             Rafraîchir l'époque 1
-            routes-vues> 
+            routes-views> 
 
 Un message BGP UPDATE informe un routeur de toute modification que vous avez apportée à une annonce de préfixe ou retire entièrement le préfixe. Comme anoncé dans ce [blog de Cloudfare](https://blog.cloudflare.com/october-2021-facebook-outage/), ils ont clairement vue le nombre de mises à jour reçues de Facebook lors de la vérification de leur base de données BGP de séries chronologiques.
  Pourtant Facebook n'apporte pas beaucoup de changements à son réseau minute par minute.
