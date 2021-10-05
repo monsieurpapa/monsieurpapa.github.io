@@ -110,7 +110,7 @@ Les gens recherchent des alternatives et veulent en savoir plus ou discuter de c
  Lorsque Facebook est devenu inaccessible, une augmentation des requêtes DNS vers Twitter a surgi, Signal et d'autres plateformes de messagerie et de médias sociaux.
 
 ## L'Internet
-Les événements d'aujourd'hui nous rappellent en douceur qu'Internet est un système très complexe et interdépendant de millions de systèmes et de protocoles fonctionnant ensemble. 
+Les événements d'hier 04 Octobre nous rappellent en douceur qu'Internet est un système très complexe et interdépendant de millions de systèmes et de protocoles fonctionnant ensemble. 
 Cette confiance, cette normalisation et cette coopération entre les entités sont au cœur de son fonctionnement pour près de cinq milliards d'utilisateurs actifs dans le monde.
 
 Les lecteurs interessés par l'aspect technique du sujet peuvent lire [cet article](https://www.bortzmeyer.org/facebook-octobre-2021.html) par Stephane, un expert du domaine. 
