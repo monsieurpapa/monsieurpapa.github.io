@@ -70,9 +70,7 @@ Pendant ce temps, d'autres adresses IP Facebook restaient routées mais n'étaie
 Un message BGP UPDATE informe un routeur de toute modification que vous avez apportée à une annonce de préfixe ou retire entièrement le préfixe. Comme anoncé dans ce [blog de Cloudfare](https://blog.cloudflare.com/october-2021-facebook-outage/), ils ont clairement vue le nombre de mises à jour reçues de Facebook lors de la vérification de leur base de données BGP de séries chronologiques.
  Pourtant Facebook n'apporte pas beaucoup de changements à son réseau minute par minute.
 
-Mais vers 17h40 UTC+2, un pic de changements de routage de Facebook a été observé. C'est alors que les ennuis ont commencé.
-
-Avec ces retraits, Facebook et ses sites se sont effectivement déconnectés d'Internet.
+Mais vers 17h40 UTC+2, un pic de changements de routage de Facebook a été observé. C'est alors que les ennuis ont commencé.Avec ces retraits, Facebook et ses sites se sont effectivement déconnectés d'Internet.
 
 ## Le DNS est affecté
 En conséquence directe de cela, les résolveurs DNS du monde entier ont cessé de résoudre leurs noms de domaine.
@@ -97,7 +95,6 @@ Cela se produit parce que le DNS, comme de nombreux autres systèmes sur Interne
  Sinon, il essaie de récupérer la réponse des serveurs de noms de domaine, généralement hébergés par l'entité qui en est propriétaire.
 
 Si les serveurs de noms sont inaccessibles ou ne répondent pas pour une autre raison, une erreur "SERVFAIL" est renvoyée et le navigateur envoie une erreur à l'utilisateur.
-
 Encore une fois, une video interessante sur le fonctionnement DNS est disponible [ici](https://youtu.be/QHVK666TFUI).
 
 En raison de l'arrêt de Facebook d'annoncer leurs routes de préfixe DNS via BGP, tous les résolveurs DNS du monde n'avaient aucun moyen de se connecter à leurs serveurs de noms. 
@@ -115,6 +112,8 @@ Les gens recherchent des alternatives et veulent en savoir plus ou discuter de c
 ## L'Internet
 Les événements d'aujourd'hui nous rappellent en douceur qu'Internet est un système très complexe et interdépendant de millions de systèmes et de protocoles fonctionnant ensemble. 
 Cette confiance, cette normalisation et cette coopération entre les entités sont au cœur de son fonctionnement pour près de cinq milliards d'utilisateurs actifs dans le monde.
+
+Les lecteurs interessés par l'aspect technique du sujet peuvent lire [cet article](https://www.bortzmeyer.org/facebook-octobre-2021.html) par Stephane, un expert du domaine. 
 
 
 
