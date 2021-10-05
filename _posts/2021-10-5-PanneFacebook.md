@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Comprendre comment Facebook a disparu d Internet
+title: Comprendre comment Facebook a disparu d'Internet
 comments: true
 ---
 ![_config.yml]({{ site.baseurl }}/images/intercon.jpg)
-### Comprendre comment Facebook a disparu d Internet.
-"Facebook ne peut pas être en panne, n'est-ce pas ?", nous le pensions, pour une seconde.
+"Facebook ne peut pas être en panne, n'est-ce pas?", nous le pensions, pour une seconde.
 
 Hier à 17h51 UTC+2, tout le monde n arrivait pas à acceder à tous les services affiliés à Facebook notamment Whatsapp, Messenger and Instagram. Ces applications étaient, en fait, tous en panne. 
 Leurs noms DNS ont cessé de se résoudre et leurs adresses IP d'infrastructure étaient inaccessibles. C'était comme si quelqu'un avait "tiré les câbles" de leurs centres de données d'un seul coup et les avait déconnectés d'Internet.
@@ -13,7 +12,7 @@ Leurs noms DNS ont cessé de se résoudre et leurs adresses IP d'infrastructure 
 Comment est-ce possible ?
 
 ## Mise à jour de Facebook
-Facebook a maintenant publié [un article de blog](https://engineering.fb.com/2021/10/04/networking-traffic/outage/) donnant quelques détails sur ce qui s'est passé en interne. 
+Facebook a ensuite publié [un article de blog](https://engineering.fb.com/2021/10/04/networking-traffic/outage/) donnant quelques détails sur ce qui s'est passé en interne. 
 En externe, les entreprises telles ques Cloudfare ont vu les problèmes BGP et DNS décrits dans cet article, mais le problème a en fait commencé par un changement de configuration qui a affecté l'ensemble du backbone interne.
 Cela s'est répercuté sur la disparition de Facebook et d'autres propriétés et le personnel interne à Facebook avait du mal à rétablir le service.
 
@@ -42,13 +41,13 @@ Dans ce schéma simplifié, vous pouvez voir six systèmes autonomes sur Interne
 À cause de cela, le résolveur DNS 1.1.1.1 de Cloudflare ne pouvait plus répondre aux requêtes demandant l'adresse IP de facebook.com ou instagram.com.
 
 
-            routes-vues> show ip bgp 185.89.218.0/23
+            routes-views> show ip bgp 185.89.218.0/23
             % Réseau non dans le tableau
-            routes-vues>
+            routes-views>
 
             route-views> show ip bgp 129.134.30.0/23
             % Réseau non dans le tableau
-            routes-vues>
+            routes-views>
 
 
 Pendant ce temps, d'autres adresses IP Facebook restaient routées mais n'étaient pas particulièrement utiles car sans DNS, Facebook et les services associés étaient effectivement indisponibles :
