@@ -4,11 +4,23 @@ title: Qui Suis-je?
 permalink: /about/
 ---
 ![_config.yml]({{ site.baseurl}}/images/profile.jpeg)
-Je suis étudiant en maîtrise d'informatique à l'Université de Cape Town, spécialisé dans les réseaux informatiques, les mesures de performance Internet, en particulier, où je travaille avec le Dr Josiah Chavula en tant que superviseur. Je suis titulaire d'un diplôme spécialisé en technologie de l'information à l'Université de Cape Town (2020) et d'un baccalauréat en informatique de l'Université chrétienne de l'Ouganda (2017). Consultez mon CV ici.
+I’m a final year Masters Student and Honours graduate in Computer Science at the University of Cape Town. My topic is on Internet Measurements. 
 
-### Plus d'Information
+ In both 2020 and 2021 I contributed to industry-lead projects as a Junior Research Engineer at AFRINIC & Internet Society. Whereby I used Python and Google’s Bigquery Server-less data warehouse to setup and manage the ETL process of the data, and analyse huge Internet Performance datasets located on both GCS and Amazon EC2 in the aim of understanding the resilience of the Internet in Africa. I leveraged RESTFUL APIs to monitor 15 RPIs hosted in 12  different African countries in an automated fashion through a Telegram Bot I developed . This was a plus for reporting to the stakeholders.
 
-En tant que solutionneur de problèmes par nature, je cherche à lutter contre la fracture numérique que connaissent les communautés à faible revenu en Afrique subsaharienne. J'ai l'intention d'apporter des informations sur les particularités de l'Internet en Afrique qui aideront les individus, les entreprises et les décideurs à prendre de meilleures décisions sur les opérations de ce vaste écosystème appelé Internet. Je me concentre particulièrement sur la mise à disposition des données Internet de chaque pays africain, en particulier ceux dont l'état de connectivité est inconnu. Par exemple, la République démocratique du Congo et ses pays voisins. J'espère que, grâce à mon parcours, je pourrai contribuer à rendre Internet moins cher, facilement accessible à tous et assez rapide en Afrique.
+I’ve written scripts in standard SQL to access the 2M+ rows in BigQuery and made interactive dashboards of the data for various stakeholders.
+I’ve developed Software tools in Java , following AGILe and User-Centered methodologies. These databases used were MongoDB No-SQL db and MySQL respectively.
+
+In addition to that I implemented Zimmerman’s Pretty Good Privacy encryption algorithm to secure the communication channel of a system I developed whereas The complexity of the system was simplified by leveraging object-oriented practices of Java programming.
+
+My current efforts are towards mastering Data Engineering on one side, and API development on the other using a combination of Python, Flask, SQLAlchemy, Bigquery/SQLite, and more.
+
+Technologies : Docker, Git, GCP, Bigquery, PowerBI, Data Studio, Balena Fleet management for IoT
+
+Tools:IntelliJ, Android Studio, VSCode, Postman, Jupyter Notebook & Jupiter Lab, Gephi . 
+
+Languages: Python, Java (Proficient), Go (Beginner-level)
+
 
 ### Contactez-moi
 
