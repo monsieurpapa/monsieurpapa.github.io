@@ -3,7 +3,8 @@ layout: page
 title: Qui Suis-je?
 permalink: /about/
 ---
-![_config.yml]({{ site.baseurl}}/images/profile.jpeg)
+![_config.yml]({{site.baseurl}}/images/profile.jpeg)
+
 I’m a final year Masters Student and Honours graduate in Computer Science at the University of Cape Town. My topic is on Internet Measurements. 
 
  In both 2020 and 2021 I contributed to industry-lead projects as a Junior Research Engineer at AFRINIC & Internet Society. Whereby I used Python and Google’s Bigquery Server-less data warehouse to setup and manage the ETL process of the data, and analyse huge Internet Performance datasets located on both GCS and Amazon EC2 in the aim of understanding the resilience of the Internet in Africa. I leveraged RESTFUL APIs to monitor 15 RPIs hosted in 12  different African countries in an automated fashion through a Telegram Bot I developed . This was a plus for reporting to the stakeholders.
