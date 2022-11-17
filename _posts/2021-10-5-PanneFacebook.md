@@ -3,7 +3,7 @@ layout: post
 title: Comprendre comment Facebook a disparu d'Internet
 comments: true
 ---
-![_config.yml]({{ site.baseurl }}/images/intercon.jpg)
+![_config.yml]({{ site.baseurl }}/images/intercon.png)
 "Facebook ne peut pas être en panne, n'est-ce pas?", nous le pensions, pour une seconde.
 
 Hier à 17h51 UTC+2, tout le monde n arrivait pas à acceder à tous les services affiliés à Facebook notamment Whatsapp, Messenger and Instagram. Ces applications étaient, en fait, tous en panne. 
