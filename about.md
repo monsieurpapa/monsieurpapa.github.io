@@ -7,7 +7,7 @@ permalink: /about/
 
 I’m Software & Data Engineer currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. Stack & Tools: Python Django, Flask, Ajax,Postgres, Redis, Haproxy, Nginx, Docker, Kubernetes , Ansible, Netbox, ContainerLab, RESTFul & GraphQL APIs.
 
-Academically, I am a Masters and Honours graduate in Computer Science at the University of Cape Town where I engaged with research participants to setup, implement, and manage users’ Web QoE and network QoS data pipelines through Internet Measurement.
+Academically, I am a Masters and Honours graduate in Computer Science at the University of Cape Town where I engaged with research participants to setup, implement, monitor and manage users’ Web QoE and network QoS data pipelines through Internet Measurement.
 
 Previously worked at WWW Foundation’s A4AI as a consultant Data Analyst to elaborate on the importance of Meaningful Connectivity for all by collecting and analyzing relevant data around the world.
 
