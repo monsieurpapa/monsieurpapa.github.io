@@ -5,25 +5,19 @@ permalink: /about/
 ---
 ![_config.yml]({{site.baseurl}}/images/profile.jpeg)
 
-I’m a final year Masters Student and Honours graduate in Computer Science at the University of Cape Town. I involve end-users into Internet Measurement experiments to assess their QoE & QoS of networks.
+I’m Software & Data Engineer currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. Stack & Tools: Python Django, Flask, Ajax,Postgres, Redis, Haproxy, Nginx, Docker, Kubernetes , Ansible, Netbox, ContainerLab, RESTFul & GraphQL APIs.
 
-I got Involved with WWW Foundation’s A4AI as consultant Data Analyst as a contribution to the fight for a Meaningful Connectivity for everyone by collecting and analysing relevant data around the world.
+Academically, I am a Masters and Honours graduate in Computer Science at the University of Cape Town where I engaged with research participants to setup, implement, and manage users’ Web QoE and network QoS data pipelines through Internet Measurement.
 
- In both 2020 and 2021 I contributed to industry-lead projects as a Junior Research Engineer at AFRINIC & Internet Society. I did set-up and maintained the project’s data pipeline and ingested to a GCP data warehouse. Other tasks involved data analysis/viz with Bigquery & Data Studio. In the process, I wrote scripts in standard SQL to access the 2M+ rows from multiple cloud providers using BigQuery and constructed & presented interactive dashboards of the data for various stakeholders.
+Previously worked at WWW Foundation’s A4AI as a consultant Data Analyst to elaborate on the importance of Meaningful Connectivity for all by collecting and analyzing relevant data around the world.
 
-I leveraged RESTFUL APIs to monitor 15 RPIs hosted in 12  different African countries in an automated fashion through a Telegram Bot I developed . This was a plus for reporting to the stakeholders.
+ In both 2020 and 2021 I contributed to industry-lead projects as a Junior Research Engineer at AFRINIC & Internet Society. I set-up and maintained the project’s data pipeline and ingested data to GCP data warehouse. Other tasks involved data analysis/viz with Bigquery & Data Studio. In the process, I wrote scripts in standard SQL to access the 2M+ rows of data located in multiple cloud providers using BigQuery and constructed & presented interactive dashboards of the data to various stakeholders.
 
-In earlier days I developed Software tools in Java , following AGILe and User-Centered methodologies. These databases used were MongoDB No-SQL db and MySQL respectively.
+I leveraged RESTFUL APIs to monitor 15 RPIs hosted in 12 different African countries in an automated fashion through a Telegram Bot I developed. This was a plus for reporting to the stakeholders.
 
-In the process,I  implemented Zimmerman’s Pretty Good Privacy encryption algorithm to secure the communication channel of a system I developed whereas The complexity of the system was simplified by leveraging object-oriented practices of Java programming.
+In earlier days I developed Software tools in Java , following AGILe and User-Centered methodologies and MongoDB No-SQL database.
 
-My current efforts are towards mastering Data Engineering : currently playing with New York Taxi datasets by ingesting it to GCP with a combination of Docker, Terraform, Postgres, Bigquery, Airflow, Python and more CLI tools 
-
-Technologies to date : Docker, Terraform ,Airflow, Git, GCP, Balena Fleet management for IoT
-
-Tools:VSCode, Data Studio, Postman, Jupyter Notebook & Jupiter Lab, Gephi . 
-
-Languages: Python(Proficient), Java (Proficient), Go (Beginner-level)
+My current efforts are towards mastering network Automation, API development, Data Engineering, and DevOps. 
 
 ### Contactez-moi
 
