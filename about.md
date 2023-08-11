@@ -10,7 +10,7 @@ I’m a Software & Data Engineer with a Research background, currently helping t
 ## Current Stack : 
 - Languages: Python, Java
 - Server:  Python Django, Flask, Haproxy, Nginx, RESTFul & GraphQL APIs.
-- Client: Bootstrap, Jquery, Ajax, React
+- Client: Bootstrap, Django Templates, React
 - Databases: PostgreSQL, InfluxDb, Redis, MySQL, MongoDB
 - DevOps: Docker, Kubernetes, Ansible, Vagrant
 - Cloud Computing: AWS, GCP, Azure
