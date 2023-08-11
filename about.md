@@ -8,12 +8,16 @@ permalink: /about/
 I’m a Software & Data Engineer currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
 
 ## Current Stack : 
+- Language: Python, Java
 - Server:  Python Django, Flask, Haproxy, Nginx, RESTFul & GraphQL APIs.
 - Client: Bootstrap, Jquery, Ajax, React
-- Databases: PostgreSQL, InfluxDb, Redis, MySQL
+- Databases: PostgreSQL, InfluxDb, Redis, MySQL, MongoDB
 - DevOps: Docker, Kubernetes, Ansible, Vagrant
-- Cloud: AWS, GCP
-- Other Tech tools : Celery Beat, Kafka, Telegraf, ContainerLab, Netbox
+- Cloud Computing: AWS, GCP, Azure
+- Data Warehouse, Orchestration, Visualization & Monitoring: Bigquery, Airflow, Google Data Studio & Prometheus respectively
+- Stream & Batch processing: Kafka, Hadoop
+- Data Storage: Amazon S3, GCS, HDFS
+- Other Tech tools: Celery Beat, Telegraf, ContainerLab, Netbox, VsCode
 
 ## Academic qualifications : 
 I am a Master's and Honours graduate in Computer Science at the University of Cape Town where I engaged with research participants to setup, implement, monitor, and manage users’ Web QoE and network QoS data pipelines through Internet Measurement.
