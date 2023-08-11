@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![_config.yml]({{site.baseurl}}/images/profile.jpeg)
 
-I’m Software & Data Engineer currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
+I’m a Software & Data Engineer currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
 
 ## Current Stack : 
 - Server:  Python Django, Flask, Haproxy, Nginx, RESTFul & GraphQL APIs.
