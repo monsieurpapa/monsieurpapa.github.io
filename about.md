@@ -8,7 +8,7 @@ permalink: /about/
 I’m a Software & Data Engineer currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
 
 ## Current Stack : 
-- Language: Python, Java
+- Languages: Python, Java
 - Server:  Python Django, Flask, Haproxy, Nginx, RESTFul & GraphQL APIs.
 - Client: Bootstrap, Jquery, Ajax, React
 - Databases: PostgreSQL, InfluxDb, Redis, MySQL, MongoDB
