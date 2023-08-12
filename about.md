@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![_config.yml]({{site.baseurl}}/images/dieudo.jpeg)
 
-I’m a Software & Data Engineer with background in a Computer Networking Research, currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
+I’m a Software & Data Engineer with a research background in Computer Networks, currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
 
 ## Current Stack : 
 - Languages: Python, Java
