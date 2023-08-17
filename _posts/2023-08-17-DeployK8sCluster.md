@@ -3,7 +3,6 @@ layout: post
 title: Simplifying Kubernetes Cluster Setup with eksctl
 comments: true
 ---
-# Simplifying Kubernetes Cluster Setup with eksctl: A Step-by-Step Guide
 
 ## Introduction
 Setting up a Kubernetes cluster on a cloud platform might sound complex, especially if you're new to cloud computing and Kubernetes. However, with the right tools and techniques, the process can be made much simpler. In this guide, we'll walk you through each section of the `eksctl` command to create a Kubernetes cluster, explaining every step along the way. By the end of this post, you'll have a clear understanding of how to set up a Kubernetes cluster optimized for your needs.
