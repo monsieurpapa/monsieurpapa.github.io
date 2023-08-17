@@ -18,21 +18,21 @@ Now, let's dive into the eksctl command step by step:
 
 ```
 eksctl create cluster \
-  --name devboks-dev-cran-eks-cluster \
+  --name my-dev-project-eks-cluster \
   --version 1.27 \
   --region eu-west-1 \
-  --nodegroup-name devboks-eks-t3-medium-eu-west-1c-nodegroup \
+  --nodegroup-name my-eks-t3-medium-eu-west-1c-nodegroup \
   --node-type t3.medium \
   --nodes 3 \
   --nodes-min 3 \
   --nodes-max 5 \
-  --node-labels io.devboks.nodegroup.zone=eu-west-1c \
+  --node-labels io.my.nodegroup.zone=eu-west-1c \
   --zones eu-west-1a,eu-west-1b,eu-west-1c \
   --node-zones eu-west-1c \
   --ssh-access \
   --asg-access \
   --vpc-cidr 172.17.0.0/16 \
-  --ssh-public-key devboks-cran-eu-west-1-keypair \
+  --ssh-public-key my-project-eu-west-1-keypair \
   --managed
 ```
 
@@ -48,13 +48,13 @@ eksctl create cluster \
 - `--zones eu-west-1a,eu-west-1b,eu-west-1c`: Define the availability zones where your nodes will be distributed.
 
 ### Step 3: Node Group Configuration
-- `--nodegroup-name devboks-eks-t3-medium-eu-west-1c-nodegroup`: Assign a name to the node group.
+- `--nodegroup-name my-eks-t3-medium-eu-west-1c-nodegroup`: Assign a name to the node group.
 - `--node-type t3.medium`: Choose the instance type for your nodes.
 - `--nodes 3`: Set the initial number of nodes in the group.
 - `--nodes-min 3 --nodes-max 5`: Specify the range of nodes for scaling purposes.
 
 ### Step 4: Node Labels and Zones
-- `--node-labels io.devboks.nodegroup.zone=eu-west-1c`: Add labels to your nodes for easy grouping.
+- `--node-labels io.my.nodegroup.zone=eu-west-1c`: Add labels to your nodes for easy grouping.
 - `--node-zones eu-west-1c`: Designate a specific zone for your nodes.
 
 ### Step 5: Access and Security
@@ -65,7 +65,7 @@ eksctl create cluster \
 - `--vpc-cidr 172.17.0.0/16`: Define the CIDR block for the Virtual Private Cloud (VPC).
 
 ### Step 7: SSH Key Pair
-- `--ssh-public-key devboks-cran-eu-west-1-keypair`: Specify the name of the SSH key pair for secure access.
+- `--ssh-public-key my-project-eu-west-1-keypair`: Specify the name of the SSH key pair for secure access.
 
 ### Step 8: Managed Node Group
 - `--managed`: Choose to create a managed node group that simplifies node management.
