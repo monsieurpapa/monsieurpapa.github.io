@@ -1,3 +1,8 @@
+---
+layout: post
+title: Simplifying Kubernetes Cluster Setup with eksctl: A Step-by-Step Guide
+comments: true
+---
 # Simplifying Kubernetes Cluster Setup with eksctl: A Step-by-Step Guide
 
 ## Introduction
