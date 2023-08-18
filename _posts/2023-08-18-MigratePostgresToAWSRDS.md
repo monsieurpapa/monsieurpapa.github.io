@@ -1,4 +1,4 @@
----
+ ---
 layout: post
 title: Migrating a PostgreSQL Database from Kubernetes to Amazon RDS
 comments: true
@@ -46,21 +46,22 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
    - Run:
    ```bash
    aws ecr-public get-login-password --region us-east-1 | helm registry login --username AWS --password-stdin public.ecr.aws
-   helm install --create-namespace -n ack-system oci://public.ecr.aws/aws-controllers-k8s/rds-chart --version=0.0.27 --generate-name --set=aws.region=us-east-1
+   ```
+   ``` helm install --create-namespace -n ack-system oci://public.ecr.aws/aws-controllers-k8s/rds-chart --version=0.0.27 --generate-name --set=aws.region=us-east-1```
 
-   APP_NAMESPACE=myproject-dev
-   kubectl create ns "${APP_NAMESPACE}"
+   ``` APP_NAMESPACE=myproject-dev```
+   ```kubectl create ns "${APP_NAMESPACE}"```
 
-3. Generate Cluster Subnets and Create DBSubnetGroup:
+4. Generate Cluster Subnets and Create DBSubnetGroup:
 
 - Execute:
   ```bash
-  Copy code
   RDS_SUBNET_GROUP_NAME="myproject-SUBNET-GROUP-NAME"
   RDS_SUBNET_GROUP_DESCRIPTION="<myproject subnet group description>"
+  ```
   
-  EKS_VPC_ID=$(aws eks describe-cluster --name="${EKS_CLUSTER_NAME}" --query "cluster.resourcesVpcConfig.vpcId" --output text)
-  EKS_SUBNET_IDS=$(aws ec2 describe-subnets --filters "Name=vpc-id,Values=${EKS_VPC_ID}" --query 'Subnets[*].SubnetId' --output text) ```
+  ```EKS_VPC_ID=$(aws eks describe-cluster --name="${EKS_CLUSTER_NAME}" --query "cluster.resourcesVpcConfig.vpcId" --output text)```
+  ```EKS_SUBNET_IDS=$(aws ec2 describe-subnets --filters "Name=vpc-id,Values=${EKS_VPC_ID}" --query 'Subnets[*].SubnetId' --output text) ```
 
 4. Create DB Subnet Group YAML:
 
@@ -76,7 +77,8 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
       RDS_SECURITY_GROUP_DESCRIPTION="<myproject rds security group description>"
       EKS_CIDR_RANGE=$(aws ec2 describe-vpcs --vpc-ids $EKS_VPC_ID --query "Vpcs[].CidrBlock" --output text)
       RDS_SECURITY_GROUP_ID=$(aws ec2 create-security-group --group-name "${RDS_SUBNET_GROUP_NAME}" --description "${RDS_SUBNET_GROUP_DESCRIPTION}" --vpc-id "${EKS_VPC_ID}" --output text)
-      aws ec2 authorize-security-group-ingress --group-id "${RDS_SECURITY_GROUP_ID}" --protocol tcp --port 5432 --cidr "${EKS_CIDR_RANGE}" ```
+      aws ec2 authorize-security-group-ingress --group-id "${RDS_SECURITY_GROUP_ID}" --protocol tcp --port 5432 --cidr "${EKS_CIDR_RANGE}"
+  ```
 
 - Provision Amazon RDS Instance:
 
@@ -86,7 +88,7 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
 
 # Validation
 - To view RDS instance details: 
-    ```kubectl describe dbinstance -n "${APP_NAMESPACE}" "${RDS_DB_INSTANCE_NAME}" ```
+    ``` kubectl describe dbinstance -n "${APP_NAMESPACE}" "${RDS_DB_INSTANCE_NAME}" ```
 
 - Check RDS instance availability:
     ``` kubectl get dbinstance -n "${APP_NAMESPACE}" "${RDS_DB_INSTANCE_NAME}" -o jsonpath='{.status.dbInstanceStatus}' ```
@@ -95,9 +97,11 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
 
 - Store PostgreSQL instance endpoint and port:
 
-    ```bash
+    ``` bash
         RDS_DB_INSTANCE_HOST=$(kubectl get dbinstance -n "${APP_NAMESPACE}" "${RDS_DB_INSTANCE_NAME}" -o jsonpath='{.status.endpoint.address}')
-        RDS_DB_INSTANCE_PORT=$(kubectl get dbinstance -n "${APP_NAMESPACE}" "${RDS_DB_INSTANCE_NAME}" -o jsonpath='{.status.endpoint.port}') ```
+    ```
+    
+  ```bash RDS_DB_INSTANCE_PORT=$(kubectl get dbinstance -n "${APP_NAMESPACE}" "${RDS_DB_INSTANCE_NAME}" -o jsonpath='{.status.endpoint.port}') ```
 
 - Deploy your project to the production cluster.
 
