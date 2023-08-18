@@ -1,4 +1,11 @@
- # Migrating a PostgreSQL Database from Kubernetes to Amazon RDS
+---
+layout: post
+title: Migrating a PostgreSQL Database from Kubernetes to Amazon RDS
+comments: true
+---
+
+![_config.yml]({{ site.baseurl }}/images/rds.png)
+""Ever wondered what happens when a Kubernetes cluster and Amazon RDS walk into a bar? We're about to spill the beans on why your PostgreSQL database might ditch the K8s dance floor for the RDS rock concert! 🚀🎸"
 
 ## Introduction
 
