@@ -47,9 +47,13 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
    ```bash
    aws ecr-public get-login-password --region us-east-1 | helm registry login --username AWS --password-stdin public.ecr.aws
    ```
+   
    ``` helm install --create-namespace -n ack-system oci://public.ecr.aws/aws-controllers-k8s/rds-chart --version=0.0.27 --generate-name --set=aws.region=us-east-1```
 
+
    ``` APP_NAMESPACE=myproject-dev```
+
+   
    ```kubectl create ns "${APP_NAMESPACE}"```
 
 4. Generate Cluster Subnets and Create DBSubnetGroup:
@@ -60,8 +64,11 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
   RDS_SUBNET_GROUP_DESCRIPTION="<myproject subnet group description>"
   ```
   
+  
   ```EKS_VPC_ID=$(aws eks describe-cluster --name="${EKS_CLUSTER_NAME}" --query "cluster.resourcesVpcConfig.vpcId" --output text)```
-  ```EKS_SUBNET_IDS=$(aws ec2 describe-subnets --filters "Name=vpc-id,Values=${EKS_VPC_ID}" --query 'Subnets[*].SubnetId' --output text) ```
+
+
+   ```EKS_SUBNET_IDS=$(aws ec2 describe-subnets --filters "Name=vpc-id,Values=${EKS_VPC_ID}" --query 'Subnets[*].SubnetId' --output text) ```
 
 4. Create DB Subnet Group YAML:
 
@@ -74,11 +81,15 @@ Here's a step-by-step guide to migrate your PostgreSQL database from Kubernetes 
 
   ```bash
       RDS_SECURITY_GROUP_NAME="<myproject security group name>"
-      RDS_SECURITY_GROUP_DESCRIPTION="<myproject rds security group description>"
-      EKS_CIDR_RANGE=$(aws ec2 describe-vpcs --vpc-ids $EKS_VPC_ID --query "Vpcs[].CidrBlock" --output text)
-      RDS_SECURITY_GROUP_ID=$(aws ec2 create-security-group --group-name "${RDS_SUBNET_GROUP_NAME}" --description "${RDS_SUBNET_GROUP_DESCRIPTION}" --vpc-id "${EKS_VPC_ID}" --output text)
-      aws ec2 authorize-security-group-ingress --group-id "${RDS_SECURITY_GROUP_ID}" --protocol tcp --port 5432 --cidr "${EKS_CIDR_RANGE}"
   ```
+  
+  ```RDS_SECURITY_GROUP_DESCRIPTION="<myproject rds security group description>" ```
+  
+  ``` EKS_CIDR_RANGE=$(aws ec2 describe-vpcs --vpc-ids $EKS_VPC_ID --query "Vpcs[].CidrBlock" --output text)```
+  
+  ``` RDS_SECURITY_GROUP_ID=$(aws ec2 create-security-group --group-name "${RDS_SUBNET_GROUP_NAME}" --description "${RDS_SUBNET_GROUP_DESCRIPTION}" --vpc-id "${EKS_VPC_ID}" --output text) ```
+  
+  ``` aws ec2 authorize-security-group-ingress --group-id "${RDS_SECURITY_GROUP_ID}" --protocol tcp --port 5432 --cidr "${EKS_CIDR_RANGE}"```
 
 - Provision Amazon RDS Instance:
 
