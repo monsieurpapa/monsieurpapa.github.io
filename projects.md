@@ -59,6 +59,30 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
   <div class="project-card">
     <div class="project-image" style="background-image: url('{{site.baseurl}}/images/config.png')"></div>
     <div class="project-content">
+      <h3>Network Training Platform</h3>
+      <p>A NOS-agnostic platform allowing trainees to apply configurations to virtual routers via the Web using Containerlab and microservices.</p>
+      <div class="project-tags">
+        <span>Docker</span><span>Django</span><span>Containerlab</span><span>AWS</span>
+      </div>
+      <a href="https://manrs.dev.devboks.com" class="btn">Visit Platform</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image" style="background-image: url('{{site.baseurl}}/images/internetmeasurement.jpg')"></div>
+    <div class="project-content">
+      <h3>Internet Performance (DRC)</h3>
+      <p>Deployment of a micro-service system on Raspberry Pis to measure QoS and QoE, influencing policy and industry decisions in the DRC.</p>
+      <div class="project-tags">
+        <span>Python</span><span>Raspberry Pi</span><span>GCP</span><span>BigQuery</span>
+      </div>
+      <a href="{{site.baseurl}}/recherche/" class="btn">View Research</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image" style="background-image: url('{{site.baseurl}}/images/config.png')"></div>
+    <div class="project-content">
       <h3>Permit Management</h3>
       <p>Enterprise RBAC system for automating regulatory permit compliance and audit trails.</p>
       <div class="project-tags">
