@@ -79,12 +79,12 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
 }
 
 .project-card {
-  background: #fff;
+  background: var(--white);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #e2e8f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  border: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
 }
@@ -98,7 +98,7 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
   height: 180px;
   background-size: cover;
   background-position: center;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .project-content {
@@ -111,12 +111,12 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
 .project-content h3 {
   margin: 0 0 10px 0;
   font-size: 1.25rem;
-  color: #0f172a;
+  color: var(--black);
 }
 
 .project-content p {
   font-size: 0.95rem;
-  color: #64748b;
+  color: var(--gray);
   margin-bottom: 15px;
   line-height: 1.5;
   flex-grow: 1;
@@ -130,8 +130,8 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
 }
 
 .project-tags span {
-  background: #f1f5f9;
-  color: #475569;
+  background: var(--lightGray);
+  color: var(--gray);
   padding: 4px 10px;
   border-radius: 20px;
   font-size: 0.75rem;
@@ -140,8 +140,8 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
 
 .project-content .btn {
   display: inline-block;
-  background: #2563eb;
-  color: #fff;
+  background: var(--blue);
+  color: #fff !important;
   padding: 10px 20px;
   border-radius: 6px;
   text-decoration: none;
@@ -152,9 +152,7 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
 }
 
 .project-content .btn:hover {
-  background: #1d4ed8;
+  background: var(--hover-blue);
   text-decoration: none;
-  color: #fff;
 }
 </style>
-

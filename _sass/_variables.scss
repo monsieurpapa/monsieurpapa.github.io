@@ -3,19 +3,67 @@
 // VARIABLES
 //
 
-// Colors
-$blue: #2563eb; // Modern blue
-$hover-blue: #1d4ed8;
-$dark-blue: #1e3a8a;
+// Light Mode Colors
+$blue-light: #2563eb;
+$hover-blue-light: #1d4ed8;
+$black-light: #0f172a;
+$darkerGray-light: #1e293b;
+$darkGray-light: #334155;
+$gray-light: #64748b;
+$lightGray-light: #f1f5f9;
+$white-light: #ffffff;
+$border-color-light: #e2e8f0;
 
-// Grays
-$black: #0f172a;
-$darkerGray: #1e293b;
-$darkGray: #334155;
-$gray: #64748b;
-$lightGray: #f1f5f9;
-$white: #ffffff;
-$border-color: #e2e8f0;
+// Dark Mode Colors (Modern Dark Blue)
+$blue-dark: #60a5fa;
+$hover-blue-dark: #93c5fd;
+$black-dark: #f8fafc;
+$darkerGray-dark: #f1f5f9;
+$darkGray-dark: #cbd5e1;
+$gray-dark: #94a3b8;
+$lightGray-dark: #1e293b;
+$white-dark: #0f172a;
+$border-color-dark: #334155;
+
+// Root CSS Variables for easy switching
+:root {
+  --blue: #{$blue-light};
+  --hover-blue: #{$hover-blue-light};
+  --black: #{$black-light};
+  --darkerGray: #{$darkerGray-light};
+  --darkGray: #{$darkGray-light};
+  --gray: #{$gray-light};
+  --lightGray: #{$lightGray-light};
+  --white: #{$white-light};
+  --border-color: #{$border-color-light};
+  --masthead-bg: #{$white-light};
+  --footer-bg: #{$lightGray-light};
+}
+
+[data-theme="dark"] {
+  --blue: #{$blue-dark};
+  --hover-blue: #{$hover-blue-dark};
+  --black: #{$black-dark};
+  --darkerGray: #{$darkerGray-dark};
+  --darkGray: #{$darkGray-dark};
+  --gray: #{$gray-dark};
+  --lightGray: #{$lightGray-dark};
+  --white: #{$white-dark};
+  --border-color: #{$border-color-dark};
+  --masthead-bg: #0f172a;
+  --footer-bg: #1e293b;
+}
+
+// Sass aliases for easier migration in style.scss
+$blue: var(--blue);
+$hover-blue: var(--hover-blue);
+$black: var(--black);
+$darkerGray: var(--darkerGray);
+$darkGray: var(--darkGray);
+$gray: var(--gray);
+$lightGray: var(--lightGray);
+$white: var(--white);
+$border-color: var(--border-color);
 
 // Font stacks
 $sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
