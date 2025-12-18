@@ -1,41 +1,44 @@
 ---
 layout: page
-title: Qui Suis-je?
+title: About Me
 permalink: /about/
 ---
-![_config.yml]({{site.baseurl}}/images/dieudo.jpeg)
 
-I’m a Software & Data Engineer with a research background in Computer Networks, currently helping to build SDN/SDWAN systems that automate telecommunication companies’ business processes. 
+![Dieudonné Munganga]({{site.baseurl}}/images/dieudo.jpeg)
 
-## Current Stack : 
-- Languages: Python, Java
-- Server:  Python Django, Flask, Haproxy, Nginx, RESTFul & GraphQL APIs.
-- Client: Bootstrap, Django Templates, React
-- Databases: PostgreSQL, InfluxDb, Redis, MySQL, MongoDB
-- DevOps: Docker, Kubernetes, Ansible, Vagrant
-- Cloud Computing: AWS, GCP, Azure
-- Data Warehouse, Orchestration, Visualization & Monitoring: Bigquery, Airflow, Google Data Studio & Prometheus respectively
-- Stream & Batch processing: Kafka, Hadoop
-- Data Storage: Amazon S3, GCS, HDFS
-- Other Tech tools: Celery Beat, Telegraf, ContainerLab, Netbox, VsCode
+Hello! I'm **Dieudonné Ishara Munganga**, a Software & Data Engineer and ICT4D (Information and Communication Technologies for Development) Researcher with over 6 years of experience. I specialize in building scalable data pipelines, automating business processes, and leveraging geospatial data analysis for social impact.
 
-## Academic qualifications : 
-- I am a Master's and Honours graduate in Computer Science at the University of Cape Town where I engaged with research participants to set up, implement, monitor, and manage users’ Web QoE and network QoS data pipelines through Internet Measurement. Courses included Big Data, High-Performance Computing, AI, HCI, Functional programming, Compilers I & II, and Research Methods
-- Prior to that, In 2017 I completed my undergraduate in Computer Science from Uganda Christian Univerity 
+Currently, I'm pursuing my **Master's in Computer Science** at the **University of Cape Town**, where I focus on Internet Measurement and Network QoS/QoE.
 
-## Past Experiences
-- Previously worked at WWW Foundation’s A4AI as a consultant Data Analyst to elaborate on the importance of Meaningful Connectivity for all by collecting and analyzing relevant data around the world.
+### 🚀 Technical Expertise
 
-- In both 2020 and 2021 I contributed to industry-lead projects as a Junior Research Engineer at AFRINIC & Internet Society. I set-up and maintained the project’s data pipeline and ingested data to GCP data warehouse. Other tasks involved data analysis/viz with Bigquery & Data Studio. In the process, I wrote scripts in standard SQL to access the 2M+ rows of data located in multiple cloud providers using BigQuery and constructed & presented interactive dashboards of the data to various stakeholders.
+*   **Languages:** Python, Java, SQL
+*   **Backend:** Django, Flask, Node.js, RESTful & GraphQL APIs
+*   **Data Engineering:** Airflow, Kafka, Hadoop, BigQuery, Spark
+*   **DevOps & Cloud:** Docker, Kubernetes, Ansible, AWS, GCP, Azure
+*   **Infrastructure:** Nginx, HAProxy, ContainerLab, Netbox
 
-I leveraged RESTFUL APIs to monitor 15 RPIs hosted in 12 different African countries in an automated fashion through a Telegram Bot I developed. This was a plus for reporting to the stakeholders.
+### 💼 Professional Experience
 
-- In my earlier undergraduate days I developed Software tools in Java, following AGILe and User-Centered methodologies and MongoDB No-SQL database.
+*   **Consultant Data Analyst** @ WWW Foundation (A4AI)
+    *   Analyzed global data to advocate for Meaningful Connectivity.
+*   **Junior Research Engineer** @ AFRINIC & Internet Society
+    *   Set up data pipelines on GCP and developed automated monitoring tools using Telegram bots and REST APIs.
+*   **IT Manager** @ SOPACDI & TMK-CONGO
+    *   Managed IT infrastructure and operations.
 
-My current efforts are towards mastering Network Automation through API development, Data Engineering, and DevOps. 
+### 🎓 Education
 
-### Contactez-moi
+*   **Master of Science in Computer Science** (In Progress) — University of Cape Town
+*   **Honours in Computer Science** — University of Cape Town
+*   **Bachelor of Science in Computer Science** — Uganda Christian University
 
-- [dieudonneishara@gmail.com](mailto:dieudonneishara@gmail.com)
-- **+27812403004**
-- Sur les reseaux sociaux, cliquez sur les icones en-dessous
+### 📫 Get in Touch
+
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+
+*   **LinkedIn:** [dieudonne-munganga](https://www.linkedin.com/in/dieudonn%C3%A9-munganga-b01111b7/)
+*   **Email:** [dieudonneishara@gmail.com](mailto:dieudonneishara@gmail.com)
+*   **GitHub:** [@monsieurpapa](https://github.com/monsieurpapa)
+
+---

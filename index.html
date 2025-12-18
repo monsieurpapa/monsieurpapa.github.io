@@ -5,15 +5,14 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
+      <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Continuer la lecture</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Continuer la lecture &rarr;</a>
     </article>
-    <div id="disqus_thread"></div>
   {% endfor %}
 </div>
