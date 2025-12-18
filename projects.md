@@ -76,7 +76,7 @@ Explore my recent work across Software Engineering, Data Engineering, and ICT4D.
       <div class="project-tags">
         <span>Python</span><span>Raspberry Pi</span><span>GCP</span><span>BigQuery</span>
       </div>
-      <a href="{{site.baseurl}}/recherche/" class="btn">View Research</a>
+      <a href="{{site.baseurl}}/services/" class="btn">Explore Services</a>
     </div>
   </div>
 
