@@ -25,6 +25,7 @@
   </head>
 
   <body>
+    {% include reading-progress.html %}
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -56,11 +57,13 @@
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
+          <footer class="footer">
           {% include svg-icons.html %}
           <div class="footer-links">
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/contact">Contact</a>
+            <a href="{{ site.baseurl }}/services">Services</a>
+            <a href="{{ site.baseurl }}/newsletter">Newsletter</a>
             <a href="{{ site.baseurl }}/archive">Archive</a>
             <a href="{{ site.baseurl }}/feed.xml">RSS</a>
           </div>
@@ -71,5 +74,6 @@
 
     {% include analytics.html %}
     {% include disqus.html %}
+    {% include back-to-top.html %}
   </body>
 </html>

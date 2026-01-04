@@ -38,6 +38,8 @@ Get in touch for collaboration opportunities, consulting inquiries, or just to s
   <div class="contact-form-container">
     <h2>Send a Message</h2>
     <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="hidden" name="_subject" value="New Contact Form Submission from {{site.name}}">
+      <input type="hidden" name="_next" value="{{site.url}}{{site.baseurl}}/contact/thanks">
       <div class="form-group">
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" required>

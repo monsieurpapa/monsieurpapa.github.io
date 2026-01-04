@@ -1,5 +1,57 @@
 {% if site.google_analytics %}
-	<!-- Google Analytics -->
+	<!-- Google Analytics (GA4) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', '{{ site.google_analytics }}', {
+			page_path: '{{ site.baseurl }}{{ page.url }}',
+			page_title: '{{ page.title | default: site.name | replace: "'", "\\'" }}'
+		});
+
+		// Track outbound links
+		document.addEventListener('click', function(e) {
+			const link = e.target.closest('a');
+			if (link && link.hostname !== window.location.hostname) {
+				gtag('event', 'click', {
+					'event_category': 'outbound',
+					'event_label': link.href,
+					'transport_type': 'beacon'
+				});
+			}
+		});
+
+		// Track file downloads
+		document.addEventListener('click', function(e) {
+			const link = e.target.closest('a');
+			if (link && (link.href.endsWith('.pdf') || link.href.endsWith('.zip') || link.href.endsWith('.doc'))) {
+				gtag('event', 'file_download', {
+					'event_category': 'downloads',
+					'event_label': link.href
+				});
+			}
+		});
+
+		// Track scroll depth
+		let maxScroll = 0;
+		window.addEventListener('scroll', function() {
+			const scrollPercent = Math.round((window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100);
+			if (scrollPercent > maxScroll && scrollPercent % 25 === 0) {
+				maxScroll = scrollPercent;
+				gtag('event', 'scroll', {
+					'event_category': 'engagement',
+					'event_label': scrollPercent + '%',
+					'value': scrollPercent
+				});
+			}
+		});
+	</script>
+	<!-- End Google Analytics -->
+{% endif %}
+
+<!-- Fallback to Universal Analytics if old format detected -->
+{% if site.google_analytics and site.google_analytics contains 'UA-' %}
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,5 +64,4 @@
 		  'title': '{{ page.title | replace: "'", "\\'" }}'
 		});
 	</script>
-	<!-- End Google Analytics -->
 {% endif %}
