@@ -192,6 +192,48 @@ permalink: /about/
   font-size: 0.95rem;
 }
 
+.contact-cta {
+  margin-top: 30px;
+  padding: 30px;
+  background: var(--lightGray);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--blue);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 15px;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--hover-blue);
+  color: white;
+}
+
+.social-links-inline {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links-inline a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links-inline a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .about-header {
     flex-direction: column-reverse;

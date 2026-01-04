@@ -42,6 +42,8 @@
             <a href="{{ site.baseurl }}/projects" {% if page.url == "/projects/" %}class="active"{% endif %}>Projects</a>
             <a href="{{ site.baseurl }}/about" {% if page.url == "/about/" %}class="active"{% endif %}>About</a>
             <a href="{{ site.baseurl }}/services" {% if page.url == "/services/" %}class="active"{% endif %}>Services</a>
+            <a href="{{ site.baseurl }}/archive" {% if page.url == "/archive/" %}class="active"{% endif %}>Archive</a>
+            <a href="{{ site.baseurl }}/search" {% if page.url == "/search/" %}class="active"{% endif %}>🔍</a>
             {% include theme-toggle.html %}
           </nav>
         </header>
@@ -56,6 +58,13 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <div class="footer-links">
+            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/contact">Contact</a>
+            <a href="{{ site.baseurl }}/archive">Archive</a>
+            <a href="{{ site.baseurl }}/feed.xml">RSS</a>
+          </div>
+          <p class="footer-copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.name }}. All rights reserved.</p>
         </footer>
       </div>
     </div>

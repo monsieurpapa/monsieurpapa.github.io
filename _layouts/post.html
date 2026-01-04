@@ -4,12 +4,49 @@ layout: default
 
 <article class="post">
   <header class="post-header">
-    <span class="date">Publié le {{ page.date | date: "%B %e, %Y" }}</span>
+    <div class="post-meta">
+      <span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
+      {% if page.categories.size > 0 %}
+      <span class="categories">
+        {% for category in page.categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="category-tag">{{category}}</a>
+        {% endfor %}
+      </span>
+      {% endif %}
+      {% if page.tags.size > 0 %}
+      <span class="tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{tag}}</span>
+        {% endfor %}
+      </span>
+      {% endif %}
+      <span class="reading-time" id="reading-time"></span>
+    </div>
     <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
   <div class="entry">
     {{ content }}
+  </div>
+
+  <hr>
+
+  <div class="post-footer">
+    {% include social-share.html %}
+    
+    {% if page.categories.size > 0 %}
+    <div class="post-categories">
+      <strong>Categories:</strong>
+      {% for category in page.categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% include related-posts.html %}
   </div>
 
   <hr>
@@ -30,6 +67,18 @@ layout: default
   </nav>  
 </article>
 
-
-    
-
+<script>
+  // Calculate reading time
+  (function() {
+    const article = document.querySelector('.entry');
+    if (article) {
+      const text = article.textContent || article.innerText;
+      const words = text.trim().split(/\s+/).length;
+      const readingTime = Math.ceil(words / 200); // Average reading speed: 200 words/min
+      const timeElement = document.getElementById('reading-time');
+      if (timeElement) {
+        timeElement.textContent = `⏱️ ${readingTime} min read`;
+      }
+    }
+  })();
+</script>

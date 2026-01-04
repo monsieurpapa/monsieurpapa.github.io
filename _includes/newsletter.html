@@ -1,0 +1,76 @@
+<div class="newsletter-signup">
+  <h3>📬 Stay Updated</h3>
+  <p>Get notified about new posts, projects, and insights on software engineering and data science.</p>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="newsletter-form">
+    <input type="email" name="email" placeholder="Enter your email" required class="newsletter-input">
+    <input type="hidden" name="_subject" value="Newsletter Subscription">
+    <button type="submit" class="newsletter-btn">Subscribe</button>
+  </form>
+  <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
+</div>
+
+<style>
+.newsletter-signup {
+  background: var(--lightGray);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  margin: 40px 0;
+  text-align: center;
+}
+
+.newsletter-signup h3 {
+  margin-top: 0;
+  color: var(--blue);
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: var(--white);
+  color: var(--black);
+}
+
+.newsletter-input:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+.newsletter-btn {
+  padding: 12px 24px;
+  background: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.newsletter-btn:hover {
+  background: var(--hover-blue);
+}
+
+.newsletter-note {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin: 10px 0 0 0;
+}
+
+@media (max-width: 640px) {
+  .newsletter-form {
+    flex-direction: column;
+  }
+}
+</style>
+

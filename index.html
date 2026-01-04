@@ -5,14 +5,81 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+      <div class="post-meta-top">
+        <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+        {% if post.categories.size > 0 %}
+        <span class="categories">
+          {% for category in post.categories %}
+          <a href="{{site.baseurl}}/archive/#{{category|slugize}}" class="category-tag">{{category}}</a>
+          {% endfor %}
+        </span>
+        {% endif %}
+      </div>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      {% if post.description %}
+      <p class="post-description">{{ post.description }}</p>
+      {% endif %}
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Continuer la lecture &rarr;</a>
+      <div class="post-footer-meta">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More &rarr;</a>
+        <span class="reading-time-estimate">{% assign words = post.content | number_of_words %}{% if words < 360 %}1{% else %}{{ words | divided_by: 200 }}{% endif %} min read</span>
+      </div>
     </article>
   {% endfor %}
 </div>
+
+<style>
+.post-meta-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.categories {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.category-tag {
+  background: var(--lightGray);
+  color: var(--blue);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s;
+}
+
+.category-tag:hover {
+  background: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.post-description {
+  color: var(--gray);
+  font-style: italic;
+  margin: -10px 0 15px 0;
+}
+
+.post-footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reading-time-estimate {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+</style>
